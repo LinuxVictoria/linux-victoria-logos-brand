@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Victoria Logos Collection</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 10mm;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            width: 210mm;
+            height: 297mm;
+            padding: 10mm;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, #2c3e50, #3498db);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+            flex: 1;
+            align-content: start;
+        }
+        
+        .logo-section {
+            background: white;
+            border-radius: 12px;
+            padding: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 2px solid #ecf0f1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 120px;
+        }
+        
+        .logo-section:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            border-color: #3498db;
+        }
+        
+        .logo-section h3 {
+            font-size: 11px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            text-align: center;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .logo-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 8px;
+            align-items: center;
+            flex: 1;
+            width: 100%;
+        }
+        
+        .logo-item img {
+            max-width: 70px;
+            max-height: 35px;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+            filter: drop-shadow(0 1px 4px rgba(0,0,0,0.1));
+        }
+        
+        .logo-item img:hover {
+            transform: scale(1.1);
+        }
+        
+        .wide-logo img {
+            max-width: 90px;
+            max-height: 30px;
+        }
+        
+        .dark-bg {
+            background: #2c3e50;
+            color: white;
+        }
+        
+        .dark-bg h3 {
+            color: white;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 10px;
+            color: #7f8c8d;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        /* Print optimizations */
+        @media print {
+            body {
+                background: white !important;
+                -webkit-print-color-adjust: exact;
+                color-adjust: exact;
+            }
+            
+            .logo-section:hover {
+                transform: none;
+            }
+            
+            .logo-item img:hover {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Linux Victoria Logos Collection</h1>
+        <p>Complete brand asset library - SVG vector graphics</p>
+    </div>
+    
+    <div class="logo-grid">
+        <!-- Circle Icons -->
+        <div class="logo-section">
+            <h3>Circle Icons</h3>
+            <div class="logo-container">
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Light_Circle.svg" alt="Light Circle">
+                </div>
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Dark_Circle.svg" alt="Dark Circle">
+                </div>
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Light_Purple_Circle.svg" alt="Light Purple Circle">
+                </div>
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Dark_Purple_Circle.svg" alt="Dark Purple Circle">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Square Icons -->
+        <div class="logo-section">
+            <h3>Square Icons</h3>
+            <div class="logo-container">
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Light_Square.svg" alt="Light Square">
+                </div>
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Dark_Square.svg" alt="Dark Square">
+                </div>
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Light_Purple_Square.svg" alt="Light Purple Square">
+                </div>
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Dark_Purple_Square.svg" alt="Dark Purple Square">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Rounded Square Icons -->
+        <div class="logo-section">
+            <h3>Rounded Square</h3>
+            <div class="logo-container">
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Light_Rounded_Square.svg" alt="Light Rounded Square">
+                </div>
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Dark_Rounded_Square.svg" alt="Dark Rounded Square">
+                </div>
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Light_Purple_Rounded_Square.svg" alt="Light Purple Rounded">
+                </div>
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Dark_Purple_Rounded_Square.svg" alt="Dark Purple Rounded">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Wide Minimal -->
+        <div class="logo-section">
+            <h3>Wide Minimal</h3>
+            <div class="logo-container">
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Min/Logo_Wide_Min_Light.svg" alt="Wide Min Light">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Min/Logo_Wide_Min_Dark.svg" alt="Wide Min Dark">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Min/Logo_Wide_Min_Purple_Light.svg" alt="Wide Min Purple Light">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Min/Logo_Wide_Min_Purple_Dark.svg" alt="Wide Min Purple Dark">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Wide Filled -->
+        <div class="logo-section">
+            <h3>Wide Filled</h3>
+            <div class="logo-container">
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Filled/Logo_Wide_Fill_Light.svg" alt="Wide Fill Light">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Filled/Logo_Wide_Fill_Dark.svg" alt="Wide Fill Dark">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Filled/Logo_Wide_Fill_Purple_Light.svg" alt="Wide Fill Purple Light">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Filled/Logo_Wide_Fill_Purple_Dark.svg" alt="Wide Fill Purple Dark">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Wide Command -->
+        <div class="logo-section">
+            <h3>Wide Command</h3>
+            <div class="logo-container">
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Command/Logo_Cmd_Light.svg" alt="Cmd Light">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Command/Logo_Cmd_Dark.svg" alt="Cmd Dark">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Command/Logo_Cmd_Purple_Light.svg" alt="Cmd Purple Light">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Command/Logo_Cmd_Purple_Dark.svg" alt="Cmd Purple Dark">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Black & White Variants -->
+        <div class="logo-section">
+            <h3>B&W Minimal</h3>
+            <div class="logo-container">
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Min/Logo_Wide_Min_Light_BW.svg" alt="Wide Min BW Light">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Min/Logo_Wide_Min_Dark_BW.svg" alt="Wide Min BW Dark">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Filled/Logo_Wide_Fill_Light_BW.svg" alt="Wide Fill BW Light">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Filled/Logo_Wide_Fill_Dark_BW.svg" alt="Wide Fill BW Dark">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Command B&W -->
+        <div class="logo-section">
+            <h3>B&W Command</h3>
+            <div class="logo-container">
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Command/Logo_Cmd_Light_BW.svg" alt="Cmd BW Light">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Command/Logo_Cmd_Dark_BW.svg" alt="Cmd BW Dark">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Drop Shadow Icons -->
+        <div class="logo-section">
+            <h3>Shadow Icons</h3>
+            <div class="logo-container">
+                <div class="logo-item">
+                    <img src="Drop_Shadow/Icon_Light_Circle_Shadow.svg" alt="Light Circle Shadow">
+                </div>
+                <div class="logo-item">
+                    <img src="Drop_Shadow/Icon_Dark_Circle_Shadow.svg" alt="Dark Circle Shadow">
+                </div>
+                <div class="logo-item">
+                    <img src="Drop_Shadow/Icon_Light_Rounded_Square_Shadow.svg" alt="Light Rounded Shadow">
+                </div>
+                <div class="logo-item">
+                    <img src="Drop_Shadow/Icon_Dark_Rounded_Square_Shadow.svg" alt="Dark Rounded Shadow">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Drop Shadow Wide -->
+        <div class="logo-section">
+            <h3>Shadow Wide</h3>
+            <div class="logo-container">
+                <div class="logo-item wide-logo">
+                    <img src="Drop_Shadow/Logo_Wide_Min_Light_Shadow.svg" alt="Wide Min Light Shadow">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Drop_Shadow/Logo_Wide_Fill_Light_Shadow.svg" alt="Wide Fill Light Shadow">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Drop_Shadow/Logo_Wide_Fill_Dark_Shadow.svg" alt="Wide Fill Dark Shadow">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Drop_Shadow/Logo_Cmd_Light_Shadow.svg" alt="Cmd Light Shadow">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Purple Shadow Variants -->
+        <div class="logo-section">
+            <h3>Purple Shadows</h3>
+            <div class="logo-container">
+                <div class="logo-item">
+                    <img src="Drop_Shadow/Icon_Light_Purple_Circle_Shadow.svg" alt="Light Purple Circle Shadow">
+                </div>
+                <div class="logo-item">
+                    <img src="Drop_Shadow/Icon_Dark_Purple_Circle_Shadow.svg" alt="Dark Purple Circle Shadow">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Drop_Shadow/Logo_Wide_Min_Purple_Light_Shadow.svg" alt="Wide Min Purple Light Shadow">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Drop_Shadow/Logo_Wide_Min_Purple_Dark_Shadow.svg" alt="Wide Min Purple Dark Shadow">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Dark Background Demo -->
+        <div class="logo-section dark-bg">
+            <h3>On Dark Background</h3>
+            <div class="logo-container">
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Light_Circle.svg" alt="Light Circle on Dark">
+                </div>
+                <div class="logo-item">
+                    <img src="Logo_Icon/Icon_Light_Purple_Square.svg" alt="Light Purple Square on Dark">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Min/Logo_Wide_Min_Light.svg" alt="Wide Min Light on Dark">
+                </div>
+                <div class="logo-item wide-logo">
+                    <img src="Logo_Wide_Command/Logo_Cmd_Light.svg" alt="Cmd Light on Dark">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p><strong>Linux Victoria Brand Assets</strong> • 104 files across 5 categories • SVG vector graphics for scalable display</p>
+        <p>Icons: Circle, Square, Rounded Square • Wide: Minimal, Filled, Command • Colors: Light, Dark, Purple • Special: B&W, Drop Shadow variants</p>
+    </div>
+    
+    <script>
+        // Add loading animation for images
+        document.querySelectorAll('img').forEach(img => {
+            img.addEventListener('load', function() {
+                this.style.opacity = '1';
+            });
+            
+            img.style.transition = 'opacity 0.3s ease';
+            img.style.opacity = '0.8';
+        });
+        
+        // Print functionality
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey && e.key === 'p') {
+                window.print();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+.
+├── Drop_Shadow
+│   ├── Icon_Dark_Circle_Shadow.svg
+│   ├── Icon_Dark_Purple_Circle_Shadow.png
+│   ├── Icon_Dark_Purple_Circle_Shadow.svg
+│   ├── Icon_Dark_Purple_Rounded_Square_Shadow.svg
+│   ├── Icon_Dark_Purple_Square_Shadow.png
+│   ├── Icon_Dark_Purple_Square_Shadow.svg
+│   ├── Icon_Dark_Rounded_Square_Shadow.svg
+│   ├── Icon_Dark_Square_Shadow.png
+│   ├── Icon_Light_Circle_Shadow.svg
+│   ├── Icon_Light_Purple_Circle_Shadow.svg
+│   ├── Icon_Light_Purple_Rounded_Square_Shadow.svg
+│   ├── Icon_Light_Purple_Square_Shadow.svg
+│   ├── Icon_Light_Rounded_Square_Shadow.png
+│   ├── Icon_Light_Rounded_Square_Shadow.svg
+│   ├── Icon_Light_Square_Shadow.png
+│   ├── Logo_Cmd_Dark_BW_Shadow.svg
+│   ├── Logo_Cmd_Dark_Shadow.svg
+│   ├── Logo_Cmd_Light_BW_Shadow.png
+│   ├── Logo_Cmd_Light_BW_Shadow.svg
+│   ├── Logo_Cmd_Light_Shadow.png
+│   ├── Logo_Cmd_Light_Shadow.svg
+│   ├── Logo_Cmd_Purple_Light_Shadow.svg
+│   ├── Logo_Wide_Fill_Dark_BW_Shadow.svg
+│   ├── Logo_Wide_Fill_Dark_Shadow.svg
+│   ├── Logo_Wide_Fill_Light_BW_Shadow.png
+│   ├── Logo_Wide_Fill_Light_BW_Shadow.svg
+│   ├── Logo_Wide_Fill_Light_Shadow.png
+│   ├── Logo_Wide_Fill_Light_Shadow.svg
+│   ├── Logo_Wide_Fill_Purple_Dark_Shadow.png
+│   ├── Logo_Wide_Fill_Purple_Dark_Shadow.svg
+│   ├── Logo_Wide_Fill_Purple_Light_Shadow.png
+│   ├── Logo_Wide_Min_Dark_BW_Shadow.png
+│   ├── Logo_Wide_Min_Dark_BW_Shadow.svg
+│   ├── Logo_Wide_Min_Light_BW_Shadow.png
+│   ├── Logo_Wide_Min_Light_BW_Shadow.svg
+│   ├── Logo_Wide_Min_Light_Shadow.png
+│   ├── Logo_Wide_Min_Light_Shadow.svg
+│   ├── Logo_Wide_Min_Purple_Dark_Shadow.png
+│   ├── Logo_Wide_Min_Purple_Dark_Shadow.svg
+│   ├── Logo_Wide_Min_Purple_Light_Shadow.png
+│   └── Logo_Wide_Min_Purple_Light_Shadow.svg
+├── index.html
+├── Logo_Icon
+│   ├── Icon_Dark_Circle.png
+│   ├── Icon_Dark_Circle.svg
+│   ├── Icon_Dark_Purple_Circle.png
+│   ├── Icon_Dark_Purple_Circle.svg
+│   ├── Icon_Dark_Purple_Rounded_Square.png
+│   ├── Icon_Dark_Purple_Rounded_Square.svg
+│   ├── Icon_Dark_Purple_Square.png
+│   ├── Icon_Dark_Purple_Square.svg
+│   ├── Icon_Dark_Rounded_Square.png
+│   ├── Icon_Dark_Rounded_Square.svg
+│   ├── Icon_Dark_Square.png
+│   ├── Icon_Dark_Square.svg
+│   ├── Icon_Light_Circle.png
+│   ├── Icon_Light_Circle.svg
+│   ├── Icon_Light_Purple_Circle.png
+│   ├── Icon_Light_Purple_Circle.svg
+│   ├── Icon_Light_Purple_Rounded_Square.png
+│   ├── Icon_Light_Purple_Rounded_Square.svg
+│   ├── Icon_Light_Purple_Square.png
+│   ├── Icon_Light_Purple_Square.svg
+│   ├── Icon_Light_Rounded_Square.png
+│   ├── Icon_Light_Rounded_Square.svg
+│   ├── Icon_Light_Square.png
+│   └── Icon_Light_Square.svg
+├── Logo_Wide_Command
+│   ├── Logo_Cmd_Dark_BW.png
+│   ├── Logo_Cmd_Dark_BW.svg
+│   ├── Logo_Cmd_Dark.png
+│   ├── Logo_Cmd_Dark.svg
+│   ├── Logo_Cmd_Light_BW.png
+│   ├── Logo_Cmd_Light_BW.svg
+│   ├── Logo_Cmd_Light.png
+│   ├── Logo_Cmd_Light.svg
+│   ├── Logo_Cmd_Purple_Dark.png
+│   ├── Logo_Cmd_Purple_Dark.svg
+│   ├── Logo_Cmd_Purple_Light.png
+│   └── Logo_Cmd_Purple_Light.svg
+├── Logo_Wide_Filled
+│   ├── Logo_Wide_Fill_Dark_BW.png
+│   ├── Logo_Wide_Fill_Dark_BW.svg
+│   ├── Logo_Wide_Fill_Dark.png
+│   ├── Logo_Wide_Fill_Dark.svg
+│   ├── Logo_Wide_Fill_Light_BW.png
+│   ├── Logo_Wide_Fill_Light_BW.svg
+│   ├── Logo_Wide_Fill_Light.png
+│   ├── Logo_Wide_Fill_Light.svg
+│   ├── Logo_Wide_Fill_Purple_Dark.png
+│   ├── Logo_Wide_Fill_Purple_Dark.svg
+│   ├── Logo_Wide_Fill_Purple_Light.png
+│   └── Logo_Wide_Fill_Purple_Light.svg
+├── Logo_Wide_Min
+│   ├── Logo_Wide_Min_Dark_BW.png
+│   ├── Logo_Wide_Min_Dark_BW.svg
+│   ├── Logo_Wide_Min_Dark.png
+│   ├── Logo_Wide_Min_Dark.svg
+│   ├── Logo_Wide_Min_Light_BW.png
+│   ├── Logo_Wide_Min_Light_BW.svg
+│   ├── Logo_Wide_Min_Light.png
+│   ├── Logo_Wide_Min_Light.svg
+│   ├── Logo_Wide_Min_Purple_Dark.png
+│   ├── Logo_Wide_Min_Purple_Dark.svg
+│   ├── Logo_Wide_Min_Purple_Light.png
+│   └── Logo_Wide_Min_Purple_Light.svg
+├── README.md
+└── tree.txt
+
+5 directories, 104 files
