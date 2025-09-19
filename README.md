@@ -2,6 +2,8 @@
 
 A collection of Linux Victoria brand logos in various styles, colors, and layouts. Includes icon, minimal, and wide-format versions for use across light and dark backgrounds.
 
+![Linux Victoria Logos Collection](./LinuxVictoria-Logos-Collection.png)
+
 ## 📁 Structure
 
 - `Logo_Icon/` – Circular, square, and rounded-square icons
